@@ -37,26 +37,26 @@ python app.py
 
 1. POST: /buildings
 2. GET: /buildings/{id}
-PUT: /buildings/{id}
-DELETE: /buildings/{id}
+3. PUT: /buildings/{id}
+4. DELETE: /buildings/{id}
 
 ## Возможные запросы Floors
 
-POST: /floors
-GET: /buildings/{building_id}/floors
-PUT: /floors/{id}
-DELETE: /floors/{id}
+1. POST: /floors
+2. GET: /buildings/{building_id}/floors
+3. PUT: /floors/{id}
+4. DELETE: /floors/{id}
 
 ## Возможные запросы Rooms
 
-POST: /rooms
-GET: /floors/{floor_id}/rooms
-PUT: /rooms/{id}
-DELETE: /rooms/{id}
+1. POST: /rooms
+2. GET: /floors/{floor_id}/rooms
+3. PUT: /rooms/{id}
+4. DELETE: /rooms/{id}
 
 ## Возможные запросы Equipment
 
-POST: /equipment or /move-equipment
-GET: /rooms/{room_id}/equipment or /floors/{floor_id}/equipment or /buildings/{building_id}/equipment
-PUT: /equipment/{id}
-DELETE: /equipment/{id}
+1. POST: /equipment or /move-equipment
+2. GET: /rooms/{room_id}/equipment or /floors/{floor_id}/equipment or /buildings/{building_id}/equipment
+3. PUT: /equipment/{id}
+4. DELETE: /equipment/{id}
