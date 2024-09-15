@@ -57,6 +57,6 @@ python app.py
 ## Возможные запросы Equipment
 
 1. POST: /equipment or /move-equipment
-2. GET: /rooms/{room_id}/equipment or /floors/{floor_id}/equipment or /buildings/{building_id}/equipment
+2. GET: /rooms/{room_id}/equipment [or] /floors/{floor_id}/equipment or /buildings/{building_id}/equipment
 3. PUT: /equipment/{id}
 4. DELETE: /equipment/{id}
