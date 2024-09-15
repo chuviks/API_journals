@@ -30,5 +30,33 @@
 
 ```bash
 python app.py
+```
+# CRUD операции
 
-## Запуск сервера
+## Возможные запросы Buildings
+
+POST: /buildings
+GET: /buildings/{id}
+PUT: /buildings/{id}
+DELETE: /buildings/{id}
+
+## Возможные запросы Floors
+
+POST: /floors
+GET: /buildings/{building_id}/floors
+PUT: /floors/{id}
+DELETE: /floors/{id}
+
+## Возможные запросы Rooms
+
+POST: /rooms
+GET: /floors/{floor_id}/rooms
+PUT: /rooms/{id}
+DELETE: /rooms/{id}
+
+## Возможные запросы Equipment
+
+POST: /equipment or /move-equipment
+GET: /rooms/{room_id}/equipment or /floors/{floor_id}/equipment or /buildings/{building_id}/equipment
+PUT: /equipment/{id}
+DELETE: /equipment/{id}
