@@ -35,8 +35,8 @@ python app.py
 
 ## Возможные запросы Buildings
 
-POST: /buildings
-GET: /buildings/{id}
+1. POST: /buildings
+2. GET: /buildings/{id}
 PUT: /buildings/{id}
 DELETE: /buildings/{id}
 
